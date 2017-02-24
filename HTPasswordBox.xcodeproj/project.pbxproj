@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDAC23F21E6020B0006DF181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAC23F11E6020B0006DF181 /* main.m */; };
+		BDAC23F51E6020B0006DF181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAC23F41E6020B0006DF181 /* AppDelegate.m */; };
+		BDAC23F81E6020B0006DF181 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAC23F71E6020B0006DF181 /* ViewController.m */; };
+		BDAC23FB1E6020B0006DF181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAC23F91E6020B0006DF181 /* Main.storyboard */; };
+		BDAC23FD1E6020B0006DF181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAC23FC1E6020B0006DF181 /* Assets.xcassets */; };
+		BDAC24001E6020B0006DF181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAC23FE1E6020B0006DF181 /* LaunchScreen.storyboard */; };
+		BDAC240B1E6020B0006DF181 /* HTPasswordBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAC240A1E6020B0006DF181 /* HTPasswordBoxTests.m */; };
+		BDAC24161E6020B0006DF181 /* HTPasswordBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAC24151E6020B0006DF181 /* HTPasswordBoxUITests.m */; };
+		BDF463731E6099AC0081327F /* HTPaySecurentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF463691E6099AC0081327F /* HTPaySecurentView.m */; };
+		BDF463741E6099AC0081327F /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF4636B1E6099AC0081327F /* back@2x.png */; };
+		BDF463751E6099AC0081327F /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF4636C1E6099AC0081327F /* back@3x.png */; };
+		BDF463761E6099AC0081327F /* HTScreenAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF4636F1E6099AC0081327F /* HTScreenAdaptation.m */; };
+		BDF463771E6099AC0081327F /* UIColor+HTRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF463711E6099AC0081327F /* UIColor+HTRGB.m */; };
+		BDF4637F1E609ECD0081327F /* HTInputPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF4637E1E609ECD0081327F /* HTInputPasswordView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDAC24071E6020B0006DF181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAC23E51E6020B0006DF181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAC23EC1E6020B0006DF181;
+			remoteInfo = HTPasswordBox;
+		};
+		BDAC24121E6020B0006DF181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAC23E51E6020B0006DF181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAC23EC1E6020B0006DF181;
+			remoteInfo = HTPasswordBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDAC23ED1E6020B0006DF181 /* HTPasswordBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTPasswordBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAC23F11E6020B0006DF181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDAC23F31E6020B0006DF181 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDAC23F41E6020B0006DF181 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDAC23F61E6020B0006DF181 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDAC23F71E6020B0006DF181 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDAC23FA1E6020B0006DF181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDAC23FC1E6020B0006DF181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDAC23FF1E6020B0006DF181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDAC24011E6020B0006DF181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAC24061E6020B0006DF181 /* HTPasswordBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTPasswordBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAC240A1E6020B0006DF181 /* HTPasswordBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPasswordBoxTests.m; sourceTree = "<group>"; };
+		BDAC240C1E6020B0006DF181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAC24111E6020B0006DF181 /* HTPasswordBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTPasswordBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAC24151E6020B0006DF181 /* HTPasswordBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPasswordBoxUITests.m; sourceTree = "<group>"; };
+		BDAC24171E6020B0006DF181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF463681E6099AC0081327F /* HTPaySecurentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPaySecurentView.h; sourceTree = "<group>"; };
+		BDF463691E6099AC0081327F /* HTPaySecurentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPaySecurentView.m; sourceTree = "<group>"; };
+		BDF4636B1E6099AC0081327F /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		BDF4636C1E6099AC0081327F /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		BDF4636E1E6099AC0081327F /* HTScreenAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTScreenAdaptation.h; sourceTree = "<group>"; };
+		BDF4636F1E6099AC0081327F /* HTScreenAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTScreenAdaptation.m; sourceTree = "<group>"; };
+		BDF463701E6099AC0081327F /* UIColor+HTRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HTRGB.h"; sourceTree = "<group>"; };
+		BDF463711E6099AC0081327F /* UIColor+HTRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HTRGB.m"; sourceTree = "<group>"; };
+		BDF463791E609CC20081327F /* HTPasswordBox-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTPasswordBox-Prefix.pch"; sourceTree = "<group>"; };
+		BDF4637D1E609ECD0081327F /* HTInputPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTInputPasswordView.h; sourceTree = "<group>"; };
+		BDF4637E1E609ECD0081327F /* HTInputPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTInputPasswordView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDAC23EA1E6020B0006DF181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC24031E6020B0006DF181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC240E1E6020B0006DF181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDAC23E41E6020B0006DF181 = {
+			isa = PBXGroup;
+			children = (
+				BDAC23EF1E6020B0006DF181 /* HTPasswordBox */,
+				BDAC24091E6020B0006DF181 /* HTPasswordBoxTests */,
+				BDAC24141E6020B0006DF181 /* HTPasswordBoxUITests */,
+				BDAC23EE1E6020B0006DF181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDAC23EE1E6020B0006DF181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC23ED1E6020B0006DF181 /* HTPasswordBox.app */,
+				BDAC24061E6020B0006DF181 /* HTPasswordBoxTests.xctest */,
+				BDAC24111E6020B0006DF181 /* HTPasswordBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDAC23EF1E6020B0006DF181 /* HTPasswordBox */ = {
+			isa = PBXGroup;
+			children = (
+				BDF463791E609CC20081327F /* HTPasswordBox-Prefix.pch */,
+				BDF463651E6099AC0081327F /* InputPasswordBox */,
+				BDF4636A1E6099AC0081327F /* Resource */,
+				BDF4636D1E6099AC0081327F /* Untils */,
+				BDAC23F31E6020B0006DF181 /* AppDelegate.h */,
+				BDAC23F41E6020B0006DF181 /* AppDelegate.m */,
+				BDAC23F61E6020B0006DF181 /* ViewController.h */,
+				BDAC23F71E6020B0006DF181 /* ViewController.m */,
+				BDAC23F91E6020B0006DF181 /* Main.storyboard */,
+				BDAC23FC1E6020B0006DF181 /* Assets.xcassets */,
+				BDAC23FE1E6020B0006DF181 /* LaunchScreen.storyboard */,
+				BDAC24011E6020B0006DF181 /* Info.plist */,
+				BDAC23F01E6020B0006DF181 /* Supporting Files */,
+			);
+			path = HTPasswordBox;
+			sourceTree = "<group>";
+		};
+		BDAC23F01E6020B0006DF181 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC23F11E6020B0006DF181 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDAC24091E6020B0006DF181 /* HTPasswordBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC240A1E6020B0006DF181 /* HTPasswordBoxTests.m */,
+				BDAC240C1E6020B0006DF181 /* Info.plist */,
+			);
+			path = HTPasswordBoxTests;
+			sourceTree = "<group>";
+		};
+		BDAC24141E6020B0006DF181 /* HTPasswordBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC24151E6020B0006DF181 /* HTPasswordBoxUITests.m */,
+				BDAC24171E6020B0006DF181 /* Info.plist */,
+			);
+			path = HTPasswordBoxUITests;
+			sourceTree = "<group>";
+		};
+		BDF463651E6099AC0081327F /* InputPasswordBox */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4637D1E609ECD0081327F /* HTInputPasswordView.h */,
+				BDF4637E1E609ECD0081327F /* HTInputPasswordView.m */,
+				BDF463681E6099AC0081327F /* HTPaySecurentView.h */,
+				BDF463691E6099AC0081327F /* HTPaySecurentView.m */,
+			);
+			path = InputPasswordBox;
+			sourceTree = "<group>";
+		};
+		BDF4636A1E6099AC0081327F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4636B1E6099AC0081327F /* back@2x.png */,
+				BDF4636C1E6099AC0081327F /* back@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BDF4636D1E6099AC0081327F /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4636E1E6099AC0081327F /* HTScreenAdaptation.h */,
+				BDF4636F1E6099AC0081327F /* HTScreenAdaptation.m */,
+				BDF463701E6099AC0081327F /* UIColor+HTRGB.h */,
+				BDF463711E6099AC0081327F /* UIColor+HTRGB.m */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDAC23EC1E6020B0006DF181 /* HTPasswordBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAC241A1E6020B0006DF181 /* Build configuration list for PBXNativeTarget "HTPasswordBox" */;
+			buildPhases = (
+				BDAC23E91E6020B0006DF181 /* Sources */,
+				BDAC23EA1E6020B0006DF181 /* Frameworks */,
+				BDAC23EB1E6020B0006DF181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTPasswordBox;
+			productName = HTPasswordBox;
+			productReference = BDAC23ED1E6020B0006DF181 /* HTPasswordBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDAC24051E6020B0006DF181 /* HTPasswordBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAC241D1E6020B0006DF181 /* Build configuration list for PBXNativeTarget "HTPasswordBoxTests" */;
+			buildPhases = (
+				BDAC24021E6020B0006DF181 /* Sources */,
+				BDAC24031E6020B0006DF181 /* Frameworks */,
+				BDAC24041E6020B0006DF181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAC24081E6020B0006DF181 /* PBXTargetDependency */,
+			);
+			name = HTPasswordBoxTests;
+			productName = HTPasswordBoxTests;
+			productReference = BDAC24061E6020B0006DF181 /* HTPasswordBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDAC24101E6020B0006DF181 /* HTPasswordBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAC24201E6020B0006DF181 /* Build configuration list for PBXNativeTarget "HTPasswordBoxUITests" */;
+			buildPhases = (
+				BDAC240D1E6020B0006DF181 /* Sources */,
+				BDAC240E1E6020B0006DF181 /* Frameworks */,
+				BDAC240F1E6020B0006DF181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAC24131E6020B0006DF181 /* PBXTargetDependency */,
+			);
+			name = HTPasswordBoxUITests;
+			productName = HTPasswordBoxUITests;
+			productReference = BDAC24111E6020B0006DF181 /* HTPasswordBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDAC23E51E6020B0006DF181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "一米阳光";
+				TargetAttributes = {
+					BDAC23EC1E6020B0006DF181 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BDAC24051E6020B0006DF181 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BDAC23EC1E6020B0006DF181;
+					};
+					BDAC24101E6020B0006DF181 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BDAC23EC1E6020B0006DF181;
+					};
+				};
+			};
+			buildConfigurationList = BDAC23E81E6020B0006DF181 /* Build configuration list for PBXProject "HTPasswordBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDAC23E41E6020B0006DF181;
+			productRefGroup = BDAC23EE1E6020B0006DF181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDAC23EC1E6020B0006DF181 /* HTPasswordBox */,
+				BDAC24051E6020B0006DF181 /* HTPasswordBoxTests */,
+				BDAC24101E6020B0006DF181 /* HTPasswordBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDAC23EB1E6020B0006DF181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF463751E6099AC0081327F /* back@3x.png in Resources */,
+				BDAC24001E6020B0006DF181 /* LaunchScreen.storyboard in Resources */,
+				BDF463741E6099AC0081327F /* back@2x.png in Resources */,
+				BDAC23FD1E6020B0006DF181 /* Assets.xcassets in Resources */,
+				BDAC23FB1E6020B0006DF181 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC24041E6020B0006DF181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC240F1E6020B0006DF181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDAC23E91E6020B0006DF181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4637F1E609ECD0081327F /* HTInputPasswordView.m in Sources */,
+				BDF463731E6099AC0081327F /* HTPaySecurentView.m in Sources */,
+				BDAC23F81E6020B0006DF181 /* ViewController.m in Sources */,
+				BDF463771E6099AC0081327F /* UIColor+HTRGB.m in Sources */,
+				BDF463761E6099AC0081327F /* HTScreenAdaptation.m in Sources */,
+				BDAC23F51E6020B0006DF181 /* AppDelegate.m in Sources */,
+				BDAC23F21E6020B0006DF181 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC24021E6020B0006DF181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAC240B1E6020B0006DF181 /* HTPasswordBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC240D1E6020B0006DF181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAC24161E6020B0006DF181 /* HTPasswordBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDAC24081E6020B0006DF181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAC23EC1E6020B0006DF181 /* HTPasswordBox */;
+			targetProxy = BDAC24071E6020B0006DF181 /* PBXContainerItemProxy */;
+		};
+		BDAC24131E6020B0006DF181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAC23EC1E6020B0006DF181 /* HTPasswordBox */;
+			targetProxy = BDAC24121E6020B0006DF181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDAC23F91E6020B0006DF181 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAC23FA1E6020B0006DF181 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDAC23FE1E6020B0006DF181 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAC23FF1E6020B0006DF181 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDAC24181E6020B0006DF181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDAC24191E6020B0006DF181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDAC241B1E6020B0006DF181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTPasswordBox/HTPasswordBox-Prefix.pch";
+				INFOPLIST_FILE = HTPasswordBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTPasswordBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDAC241C1E6020B0006DF181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTPasswordBox/HTPasswordBox-Prefix.pch";
+				INFOPLIST_FILE = HTPasswordBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTPasswordBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDAC241E1E6020B0006DF181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HTPasswordBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTPasswordBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTPasswordBox.app/HTPasswordBox";
+			};
+			name = Debug;
+		};
+		BDAC241F1E6020B0006DF181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HTPasswordBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTPasswordBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTPasswordBox.app/HTPasswordBox";
+			};
+			name = Release;
+		};
+		BDAC24211E6020B0006DF181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HTPasswordBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTPasswordBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HTPasswordBox;
+			};
+			name = Debug;
+		};
+		BDAC24221E6020B0006DF181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HTPasswordBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTPasswordBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HTPasswordBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDAC23E81E6020B0006DF181 /* Build configuration list for PBXProject "HTPasswordBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAC24181E6020B0006DF181 /* Debug */,
+				BDAC24191E6020B0006DF181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAC241A1E6020B0006DF181 /* Build configuration list for PBXNativeTarget "HTPasswordBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAC241B1E6020B0006DF181 /* Debug */,
+				BDAC241C1E6020B0006DF181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAC241D1E6020B0006DF181 /* Build configuration list for PBXNativeTarget "HTPasswordBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAC241E1E6020B0006DF181 /* Debug */,
+				BDAC241F1E6020B0006DF181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAC24201E6020B0006DF181 /* Build configuration list for PBXNativeTarget "HTPasswordBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAC24211E6020B0006DF181 /* Debug */,
+				BDAC24221E6020B0006DF181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDAC23E51E6020B0006DF181 /* Project object */;
+}
