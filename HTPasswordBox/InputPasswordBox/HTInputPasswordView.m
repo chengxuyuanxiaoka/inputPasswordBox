@@ -114,7 +114,6 @@ UITextFieldDelegate
 
 - (void)cleanPassword {
     self.textField.text = nil;
-    [self.textField becomeFirstResponder];
     [self.paySecurentView setupSubviewsWithPassword:@""];
 }
 
