@@ -125,7 +125,6 @@ UITextFieldDelegate
             NSRange deleteRange = NSMakeRange(addMutableStr.length-1, 1);
             [addMutableStr deleteCharactersInRange:deleteRange];
         }
-        //如果删除按钮，则删除最后一位
     }else{
         [addMutableStr appendString:string];
     }

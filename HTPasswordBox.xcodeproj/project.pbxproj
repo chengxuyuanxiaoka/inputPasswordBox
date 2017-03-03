@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5E02B91E693BBB00EEF1C0 /* HTPasswordShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5E02B81E693BBB00EEF1C0 /* HTPasswordShowView.m */; };
 		BDAC23F21E6020B0006DF181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAC23F11E6020B0006DF181 /* main.m */; };
 		BDAC23F51E6020B0006DF181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAC23F41E6020B0006DF181 /* AppDelegate.m */; };
 		BDAC23F81E6020B0006DF181 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAC23F71E6020B0006DF181 /* ViewController.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD5E02B71E693BBB00EEF1C0 /* HTPasswordShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPasswordShowView.h; sourceTree = "<group>"; };
+		BD5E02B81E693BBB00EEF1C0 /* HTPasswordShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPasswordShowView.m; sourceTree = "<group>"; };
 		BDAC23ED1E6020B0006DF181 /* HTPasswordBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTPasswordBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAC23F11E6020B0006DF181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDAC23F31E6020B0006DF181 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,9 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				BDF463791E609CC20081327F /* HTPasswordBox-Prefix.pch */,
-				BDF463651E6099AC0081327F /* InputPasswordBox */,
 				BDF4636A1E6099AC0081327F /* Resource */,
 				BDF4636D1E6099AC0081327F /* Untils */,
+				BDF463651E6099AC0081327F /* InputPasswordBox */,
 				BDAC23F31E6020B0006DF181 /* AppDelegate.h */,
 				BDAC23F41E6020B0006DF181 /* AppDelegate.m */,
 				BDAC23F61E6020B0006DF181 /* ViewController.h */,
@@ -164,6 +167,8 @@
 		BDF463651E6099AC0081327F /* InputPasswordBox */ = {
 			isa = PBXGroup;
 			children = (
+				BD5E02B71E693BBB00EEF1C0 /* HTPasswordShowView.h */,
+				BD5E02B81E693BBB00EEF1C0 /* HTPasswordShowView.m */,
 				BDF4637D1E609ECD0081327F /* HTInputPasswordView.h */,
 				BDF4637E1E609ECD0081327F /* HTInputPasswordView.m */,
 				BDF463681E6099AC0081327F /* HTPaySecurentView.h */,
@@ -326,6 +331,7 @@
 			files = (
 				BDF4637F1E609ECD0081327F /* HTInputPasswordView.m in Sources */,
 				BDF463731E6099AC0081327F /* HTPaySecurentView.m in Sources */,
+				BD5E02B91E693BBB00EEF1C0 /* HTPasswordShowView.m in Sources */,
 				BDAC23F81E6020B0006DF181 /* ViewController.m in Sources */,
 				BDF463771E6099AC0081327F /* UIColor+HTRGB.m in Sources */,
 				BDF463761E6099AC0081327F /* HTScreenAdaptation.m in Sources */,
