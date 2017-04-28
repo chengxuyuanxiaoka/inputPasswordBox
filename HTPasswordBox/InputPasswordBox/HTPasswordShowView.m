@@ -21,6 +21,7 @@
 }
 
 - (void)createInputPasswordBoxWithShowMode:(PasswordBoxShowMode)showMode {
+    self.showMode = showMode;
     switch (showMode) {
         case BottomPop:{
             [self bottomPopInputPasswordBox];

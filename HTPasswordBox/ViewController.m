@@ -39,7 +39,6 @@ typedef NS_ENUM(NSInteger,ComepareResult) {
 
 - (void)selectedInputPassword:(UIButton *)btn {
     [self.view addSubview:self.showView];
-    self.showView.showMode = ScalePop;
     [self.showView createInputPasswordBoxWithShowMode:ScalePop];
     self.showView.inputPasswordBox.comepareDelegate = self;
     self.showView.inputPasswordBox.forgetDelegate = self;
